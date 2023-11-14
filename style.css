@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* CSS do Header e da foto de fundo grande com a frase*/
+#image-background {
+    background-image: url(./images/personal.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#Menu {
+    background-color: #000000c7;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 0 10px 0 10px;
+}
+#div-text {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+#div-left {
+    width: 100%;
+    height: 90vh;
+}
+#div-right {
+    width: 100%;
+    height: 90vh;
+}
+#right-frase {
+    display: grid;
+    margin-top: 30vh;
+    width: 80%;
+    padding-left: 50px;
+}
+#botao-compra {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #383838;
+    color: white;
+    cursor: pointer;
+}
+#botao-compra:hover {
+    background-color: rgb(31, 31, 31);
+}
+#link-botao {
+    color: white;
+    text-decoration: none;
+}
+#div-botao {
+display: flex;
+margin-top: 10px;
+}
+p, h1 {
+    color:white;
+}
+
+/* CSS sobre mim vai ter a foto e um texto alando sobre ele*/
+
+#div-sobre-mim {
+    display: flex;
+}

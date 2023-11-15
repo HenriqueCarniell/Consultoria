@@ -1,7 +1,16 @@
+/* todos os elementos da pagina */
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none
 }
+
+a {
+    color: black
+}
+
+/* imports de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 /* CSS do Header e da foto de fundo grande com a frase*/
 #image-background {
@@ -19,6 +28,7 @@
     height: 80px;
     padding: 0 10px 0 10px;
 }
+
 #div-text {
     display: flex;
     justify-content: space-between;
@@ -26,20 +36,24 @@
     font-size: 20px;
     width: 100%;
 }
+
 #div-left {
     width: 100%;
     height: 90vh;
 }
+
 #div-right {
     width: 100%;
     height: 90vh;
 }
+
 #right-frase {
     display: grid;
     margin-top: 30vh;
     width: 80%;
     padding-left: 50px;
 }
+
 #botao-compra {
     width: 25%;
     padding: 10px;
@@ -49,23 +63,107 @@
     color: white;
     cursor: pointer;
 }
+
 #botao-compra:hover {
     background-color: rgb(31, 31, 31);
 }
+
 #link-botao {
     color: white;
     text-decoration: none;
 }
+
 #div-botao {
-display: flex;
-margin-top: 10px;
-}
-p, h1 {
-    color:white;
+    display: flex;
+    margin-top: 10px;
 }
 
-/* CSS sobre mim vai ter a foto e um texto alando sobre ele*/
+#conheca-frase {
+    color: white;
+}
+
+#resultados {
+    color: white;
+}
+
+/* CSS sobre mim, vai ter a foto e um texto falando sobre ele */
+
+#div-foto-texto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#div-foto {
+    flex: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+#foto-profissional {
+    margin-right: 50px;
+    height: 25rem; /* quando a foto está muito grande dos lados da tela fica um espaço em branco diminuir a foto comforme os pixels diminumem */
+    border-radius: 1000px;
+}
+
+#div-texto-sobre-mim {
+    flex: 50%;
+}
 
 #div-sobre-mim {
-    display: flex;
+    padding: 50px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    background-color: #000000da;
+    color: rgba(255, 255, 255, 0.685);
 }
+
+#div-quem-sou-eu {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#div-nome {
+    margin-bottom: 1.5rem;
+}
+
+#botao-whatsap {
+    border: none;
+    background-color: rgb(3, 180, 3);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+#div-botao-whatsap {
+    margin-top: 10px;
+}
+
+/* Container de textp com fotos antes e depois*/
+
+#container-fotos-antes-depois {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fotos {
+    height: 300px;
+}
+#container {
+    padding-top: 50px;
+    display: grid;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+#div-frase-time {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+#div-motivacao {
+    display: flex;
+    justify-content: center;
+}
+

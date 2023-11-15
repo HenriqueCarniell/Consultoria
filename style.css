@@ -136,6 +136,10 @@ a {
     display: flex;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
+    transition: transform 0.3s;
+}
+#botao-whatsap:hover {
+    transform: scale(1.1);
 }
 
 #div-botao-whatsap {
@@ -147,6 +151,7 @@ a {
 #container-fotos-antes-depois {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .fotos {
     height: 300px;
@@ -154,8 +159,11 @@ a {
 #container {
     padding-top: 50px;
     display: grid;
-    justify-content: center;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+#container h1, p{
+    color:white;
 }
 #div-frase-time {
     display: flex;
@@ -166,4 +174,32 @@ a {
     display: flex;
     justify-content: center;
 }
+#div-frase-corpo {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+#traço-branco {
+    background-color: white;
+    width: 60px;
+    height: 8px;
+    transition: width 2s;
+}
+#traço-branco:hover {
+    width: 220px; /* Aumenta a largura para 120px quando o mouse passa sobre o traço */
+}
+#div-traço-branco {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.fotos {
+    transition: transform 0.3s; /* Adiciona uma transição suave ao alterar o tamanho da imagem */
+}
 
+.fotos:hover {
+    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% quando o mouse passa sobre ela */
+}

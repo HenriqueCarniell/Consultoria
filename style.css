@@ -161,6 +161,7 @@ a {
     display: grid;
     font-family: 'Roboto', sans-serif;
     background-color: black;
+
 }
 #container h1, p{
     color:white;
@@ -187,9 +188,6 @@ a {
     height: 8px;
     transition: width 2s;
 }
-#traço-branco:hover {
-    width: 220px; /* Aumenta a largura para 120px quando o mouse passa sobre o traço */
-}
 #div-traço-branco {
     display: flex;
     justify-content: center;
@@ -202,4 +200,44 @@ a {
 
 .fotos:hover {
     transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% quando o mouse passa sobre ela */
+}
+
+/* Container com videos */
+#container-frase-videos {
+    background-color: #161515;
+}
+
+#container-videos div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#div-frase-projeto {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+#frase-treino-foco {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/* sobre o produto */
+
+#container-dentro-aplicativo div{
+    flex-wrap: wrap;
+}
+#div-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+#div-sobre-profuto {
+    display: flex;
+    justify-content: center ;
+}
+
+#div-sobre-produto {
+    display: flex;
 }

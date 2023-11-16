@@ -101,7 +101,8 @@ a {
 
 #foto-profissional {
     margin-right: 50px;
-    height: 25rem; /* quando a foto está muito grande dos lados da tela fica um espaço em branco diminuir a foto comforme os pixels diminumem */
+    height: 25rem;
+    /* quando a foto está muito grande dos lados da tela fica um espaço em branco diminuir a foto comforme os pixels diminumem */
     border-radius: 1000px;
 }
 
@@ -138,6 +139,7 @@ a {
     font-size: 1.2rem;
     transition: transform 0.3s;
 }
+
 #botao-whatsap:hover {
     transform: scale(1.1);
 }
@@ -153,9 +155,11 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
 .fotos {
     height: 300px;
 }
+
 #container {
     padding-top: 50px;
     display: grid;
@@ -163,18 +167,23 @@ a {
     background-color: black;
 
 }
-#container h1, p{
-    color:white;
+
+#container h1,
+p {
+    color: white;
 }
+
 #div-frase-time {
     display: flex;
     justify-content: center;
     font-size: 25px;
 }
+
 #div-motivacao {
     display: flex;
     justify-content: center;
 }
+
 #div-frase-corpo {
     display: flex;
     justify-content: center;
@@ -182,24 +191,33 @@ a {
     margin-bottom: 1rem;
     align-items: center;
 }
+
 #traço-branco {
     background-color: white;
     width: 60px;
     height: 8px;
     transition: width 2s;
 }
+
 #div-traço-branco {
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
 .fotos {
-    transition: transform 0.3s; /* Adiciona uma transição suave ao alterar o tamanho da imagem */
+    transition: transform 0.3s;
+    /* Adiciona uma transição suave ao alterar o tamanho da imagem */
 }
 
 .fotos:hover {
-    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% quando o mouse passa sobre ela */
+    transform: scale(1.1);
+    /* Aumenta o tamanho da imagem em 10% quando o mouse passa sobre ela */
+}
+
+.div-image {
+    padding-bottom: 25px;
 }
 
 /* Container com videos */
@@ -217,6 +235,7 @@ a {
     justify-content: center;
     padding-top: 10px;
 }
+
 #frase-treino-foco {
     display: flex;
     justify-content: center;
@@ -224,20 +243,50 @@ a {
 }
 
 /* sobre o produto */
+#container-como-funciona {
+    display: flex;
+    justify-content: space-around;
+}
 
-#container-dentro-aplicativo div{
+#cards-como-funciona {
+    width: 200px; /* Ou outra largura desejada */
+    margin: 10px;
+}
+
+#cards-como-funciona span{
+    font-size: 20px;
+}
+
+#container-como-funciona {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+}
+.div-texto-como-funciona {
+    height: 230px;
+    padding-bottom: 60px;
 }
 #div-titulo {
+    padding-top: 20px;
+}
+#div-sobre-profuto {
+    padding-bottom: 20px;
+}
+#div-titulo, #div-sobre-profuto{
     display: flex;
     justify-content: center;
 }
 
-#div-sobre-profuto {
-    display: flex;
-    justify-content: center ;
+#container-dentro-aplicativo {
+    background-color: white;
 }
 
-#div-sobre-produto {
-    display: flex;
+#container-dentro-aplicativo h1,h2,span {
+    color: black;
 }

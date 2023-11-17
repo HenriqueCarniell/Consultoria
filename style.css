@@ -2,7 +2,8 @@
 * {
     padding: 0;
     margin: 0;
-    text-decoration: none
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -186,17 +187,16 @@ p {
 
 #div-frase-corpo {
     display: flex;
-    justify-content: center;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     align-items: center;
 }
-
 #traço-branco {
     background-color: white;
     width: 60px;
     height: 8px;
     transition: width 2s;
+    margin-bottom: 1.5rem;
 }
 
 #div-traço-branco {
@@ -223,13 +223,17 @@ p {
 /* Container com videos */
 #container-frase-videos {
     background-color: #161515;
+    padding-bottom: 30px;
 }
 
 #container-videos div {
     display: flex;
     justify-content: space-evenly;
 }
-
+#div-videos {
+    display: flex;
+    flex-wrap: wrap;
+}
 #div-frase-projeto {
     display: flex;
     justify-content: center;
@@ -272,6 +276,7 @@ p {
     height: 230px;
     padding-bottom: 60px;
 }
+
 #div-titulo {
     padding-top: 20px;
 }
@@ -289,4 +294,97 @@ p {
 
 #container-dentro-aplicativo h1,h2,span {
     color: black;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    align-items: center;
+}
+#footer h1, #footer h2, #footer h3, #footer i, #footer span, #footer a {
+    color: white;
+}
+
+#socias {
+    display: grid;
+}
+#socias a{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#socias span{
+    margin-left: 10px;
+}
+
+#frases-serviços {
+    display: grid;
+}
+#frases-serviços span {
+    margin-top: 20px;
+}
+#div-sobre-mim-footer {
+    padding-bottom: 15px;
+}
+
+/* Responsividade */
+
+/* Estilos para desktops e notebooks */
+@media screen and (min-width: 1281px) {
+    #footer {
+        display: flex;
+    }
+}
+
+/* Estilos para tablets */
+@media screen and (min-width: 415px) and (max-width: 1280px) {
+    #foto-profissional {
+        display: flex;
+        height: 20rem;
+    }
+    #div-foto {
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+/* Estilos para celulares */
+@media screen and (max-width: 585px) {
+    #footer {
+        display: grid;
+    }
+    #right-frase {
+        padding-right: 30px;
+    }
+    #div-frase-time h1{
+        font-size: 1.8rem;
+    }
+    #div-motivacao h1{
+        font-size: 1.4rem;
+    }
+    #div-frase-corpo span{
+        font-size: 1.1rem;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 659px) { 
+    #cards-como-funciona:last-of-type {
+        padding-bottom: 100px;
+    }
+    #cards-como-funciona:last-child {
+        padding-top: 90px;
+    }
+}
+@media screen and (max-width: 845px) {
+    #footer {
+        display: grid;
+    }
 }

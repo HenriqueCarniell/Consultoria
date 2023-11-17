@@ -191,6 +191,7 @@ p {
     margin-bottom: 1rem;
     align-items: center;
 }
+
 #traço-branco {
     background-color: white;
     width: 60px;
@@ -230,10 +231,13 @@ p {
     display: flex;
     justify-content: space-evenly;
 }
+
 #div-videos {
     display: flex;
     flex-wrap: wrap;
+
 }
+
 #div-frase-projeto {
     display: flex;
     justify-content: center;
@@ -253,11 +257,12 @@ p {
 }
 
 #cards-como-funciona {
-    width: 200px; /* Ou outra largura desejada */
+    width: 200px;
+    /* Ou outra largura desejada */
     margin: 10px;
 }
 
-#cards-como-funciona span{
+#cards-como-funciona span {
     font-size: 20px;
 }
 
@@ -272,6 +277,7 @@ p {
     display: flex;
     justify-content: center;
 }
+
 .div-texto-como-funciona {
     height: 230px;
     padding-bottom: 60px;
@@ -280,10 +286,13 @@ p {
 #div-titulo {
     padding-top: 20px;
 }
+
 #div-sobre-profuto {
     padding-bottom: 20px;
 }
-#div-titulo, #div-sobre-profuto{
+
+#div-titulo,
+#div-sobre-profuto {
     display: flex;
     justify-content: center;
 }
@@ -292,7 +301,9 @@ p {
     background-color: white;
 }
 
-#container-dentro-aplicativo h1,h2,span {
+#container-dentro-aplicativo h1,
+h2,
+span {
     color: black;
 }
 
@@ -301,6 +312,7 @@ footer {
     background-color: black;
 
 }
+
 #footer {
     display: flex;
     justify-content: space-around;
@@ -308,27 +320,37 @@ footer {
     padding-top: 30px;
     align-items: center;
 }
-#footer h1, #footer h2, #footer h3, #footer i, #footer span, #footer a {
+
+#footer h1,
+#footer h2,
+#footer h3,
+#footer i,
+#footer span,
+#footer a {
     color: white;
 }
 
 #socias {
     display: grid;
 }
-#socias a{
+
+#socias a {
     font-size: 20px;
     margin-top: 10px;
 }
-#socias span{
+
+#socias span {
     margin-left: 10px;
 }
 
 #frases-serviços {
     display: grid;
 }
+
 #frases-serviços span {
     margin-top: 20px;
 }
+
 #div-sobre-mim-footer {
     padding-bottom: 15px;
 }
@@ -348,41 +370,91 @@ footer {
         display: flex;
         height: 20rem;
     }
+
     #div-foto {
         display: flex;
         justify-content: center;
     }
 
-
+    #div-videos video {
+        padding-top: 30px;
+    }
+    #div-frase-projeto h1 {
+        font-size: 1.8rem !important;
+        padding-bottom: 0.8rem;
+    }
+    #frase-treino-foco h1 {
+        font-size: 1.2rem !important;
+    }
 }
+
 /* Estilos para celulares */
 @media screen and (max-width: 585px) {
     #footer {
         display: grid;
     }
+
     #right-frase {
-        padding-right: 30px;
+        padding-right: 1.2rem;
     }
-    #div-frase-time h1{
+
+    #div-frase-time h1 {
         font-size: 1.8rem;
     }
-    #div-motivacao h1{
+
+    #div-motivacao h1 {
         font-size: 1.4rem;
     }
-    #div-frase-corpo span{
+
+    #div-frase-corpo span {
         font-size: 1.1rem;
         color: white;
     }
+
+    #div-frase-projeto h1 {
+        font-size: 1.8rem !important;
+    }
+
+    #frase-treino-foco h1 {
+        font-size: 1rem !important;
+    }
+    #div-foto img{
+        height: 13rem;
+    }
 }
 
-@media screen and (max-width: 659px) { 
+@media screen and (max-width: 439px) {
+    #container-como-funciona>#cards-como-funciona:nth-child(2) {
+        padding-top: 100px;
+        /* Ajuste este valor conforme necessário */
+    }
+
+    #cards-como-funciona:last-child {
+        padding-top: 0px !important;
+    }
+
+    #cards-como-funciona,
+    .icone {
+        margin-bottom: 20px;
+    }
+
+    #container-como-funciona>#cards-como-funciona:nth-child(3) {
+        padding-bottom: 0px;
+        /* Ajuste este valor conforme necessário */
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 659px) {
     #cards-como-funciona:last-of-type {
         padding-bottom: 100px;
     }
+
     #cards-como-funciona:last-child {
         padding-top: 90px;
     }
 }
+
 @media screen and (max-width: 845px) {
     #footer {
         display: grid;

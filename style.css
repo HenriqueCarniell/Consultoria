@@ -445,6 +445,9 @@ footer {
     #div-footer-texto-sobre-mim {
         font-size: 16px;
     }
+    #botao-compra {
+        width: 8rem;
+    }
 }
 
 @media screen and (max-width: 439px) {

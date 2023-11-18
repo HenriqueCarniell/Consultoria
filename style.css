@@ -60,13 +60,9 @@ a {
     padding: 10px;
     border: none;
     border-radius: 8px;
-    background-color: #383838;
+    background-color: rgb(31, 28, 28);
     color: white;
     cursor: pointer;
-}
-
-#botao-compra:hover {
-    background-color: rgb(31, 31, 31);
 }
 
 #link-botao {
@@ -354,7 +350,12 @@ footer {
 #div-sobre-mim-footer {
     padding-bottom: 15px;
 }
-
+#div-footer-email {
+    margin-top: 1.5rem;
+}
+#div-footer-sobre {
+    padding-bottom: 2rem;
+}
 /* Responsividade */
 
 /* Estilos para Notebooks e desktops */
@@ -386,6 +387,9 @@ footer {
     }
     #frase-treino-foco h1 {
         font-size: 1.2rem !important;
+    }
+    #botao-compra {
+        width: 8rem;
     }
 }
 
@@ -422,6 +426,9 @@ footer {
     #div-foto img{
         height: 13rem;
     }
+    #div-sobre-profuto h2{
+        font-size: 1.05rem ;
+    }
 }
 
 @media screen and (max-width: 439px) {
@@ -457,6 +464,18 @@ footer {
 @media screen and (max-width: 845px) {
     #footer {
         display: grid;
+    }
+    #socias {
+        padding-bottom: 40px;
+    }
+    #div-footer-email {
+        margin-top: 1.5rem;
+    }
+    #div-footer-servicos {
+        margin-top: 1.5rem;
+    }
+    #div-socias-texto {
+        margin-top: 1.5rem;
     }
 }
 

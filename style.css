@@ -357,7 +357,8 @@ footer {
 
 /* Responsividade */
 
-/* Estilos para desktops e notebooks */
+/* Estilos para Notebooks e desktops */
+
 @media screen and (min-width: 1281px) {
     #footer {
         display: flex;
@@ -426,7 +427,6 @@ footer {
 @media screen and (max-width: 439px) {
     #container-como-funciona>#cards-como-funciona:nth-child(2) {
         padding-top: 100px;
-        /* Ajuste este valor conforme necessário */
     }
 
     #cards-como-funciona:last-child {
@@ -440,7 +440,6 @@ footer {
 
     #container-como-funciona>#cards-como-funciona:nth-child(3) {
         padding-bottom: 0px;
-        /* Ajuste este valor conforme necessário */
         margin-bottom: 0;
     }
 }
@@ -458,5 +457,29 @@ footer {
 @media screen and (max-width: 845px) {
     #footer {
         display: grid;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    #div-videos video {
+        width: 80%;
+    }
+    .fotos {
+        height: 250px !important;
+    }
+    #div-h1 h1{
+        font-size: 1.5rem;
+    }
+    #div-h1 {
+        width: 90%;
+    }
+    #div-p {
+        width: 90%;
+    }
+    #div-p p {
+        font-size: 1.2rem;
+    }
+    #right-frase {
+        width: auto;
     }
 }

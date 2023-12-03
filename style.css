@@ -4,8 +4,11 @@
     margin: 0;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
 }
-
+body {
+    width: 100%;
+}
 a {
     color: black
 }
@@ -22,15 +25,16 @@ a {
     background-position: top;
 }
 #redes-sociais {
-    width: 13%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 #redes-sociais i{
     color: white;
     font-size: 23px;
     cursor: pointer;
+    margin-left: 3rem;
 }
 
 #div-logo img{
@@ -49,7 +53,6 @@ a {
 #div-text {
     display: flex;
     justify-content: space-between;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     width: 100%;
 }
@@ -128,8 +131,7 @@ a {
 #div-sobre-mim {
     padding: 50px;
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    background-color: #131323;
+    background-color: #000000;
     color: rgba(255, 255, 255, 0.685);
 }
 
@@ -138,8 +140,19 @@ a {
     margin-bottom: 1.5rem;
 }
 
+#div-quem-sou-eu h1{
+    color: white;
+}
+
 #div-nome {
     margin-bottom: 1.5rem;
+}
+#div-sobre-mim-span span {
+    color: white;
+}
+
+#div-nome h2{
+    color: white;
 }
 
 #botao-whatsap {
@@ -150,7 +163,6 @@ a {
     font-size: 15px;
     cursor: pointer;
     display: flex;
-    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     transition: transform 0.3s;
 }
@@ -178,7 +190,6 @@ a {
 #container {
     padding-top: 50px;
     display: grid;
-    font-family: 'Roboto', sans-serif;
     background-color: black;
 
 }
@@ -237,7 +248,7 @@ p {
 
 /* Container com videos */
 #container-frase-videos {
-    background-color: #161515;
+    background-color: white;
     padding-bottom: 30px;
 }
 
@@ -258,10 +269,20 @@ p {
     padding-top: 10px;
 }
 
+#div-frase-projeto h1{
+    color: #000000; 
+    font-size: 50px;
+}
+
 #frase-treino-foco {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+}
+
+#frase-treino-foco h1{
+    color: #000000; 
+    font-size: 25px;
 }
 
 /* sobre o produto */
@@ -393,10 +414,16 @@ footer {
 
 /* Estilos para tablets */
 @media screen and (min-width: 300px) and (max-width: 1280px) {
+    .fotos:hover {
+        transform: none;
+    }
+    #Menu {
+        padding: 0 20px 0 20px;
+    }
     #foto-profissional {
         display: flex;
-        height: 20rem;
-        width: 20rem;
+        height: 19rem;
+        width: 19rem;
         margin-right: 0;
     }
 

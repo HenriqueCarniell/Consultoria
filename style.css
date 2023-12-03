@@ -79,7 +79,7 @@ a {
     padding: 10px;
     border: none;
     border-radius: 8px;
-    background-color: rgb(31, 28, 28);
+    background-color: #000000;
     color: white;
     cursor: pointer;
 }
@@ -453,6 +453,9 @@ footer {
 
 /* Estilos para celulares */
 @media screen and (max-width: 585px) {
+    #redes-sociais i{
+        margin-left: 1.5rem;
+    }
     #div-foto-texto {
         display: grid;
     }
@@ -460,7 +463,6 @@ footer {
         height: 200px;
         width: 200px;
         border-radius: 50%;
-
     }
 
     #footer {
@@ -469,6 +471,7 @@ footer {
 
     #right-frase {
         padding-right: 1.2rem;
+        margin-top: 25vh;
     }
 
     #div-frase-time h1 {
@@ -507,11 +510,17 @@ footer {
 
 @media screen and (max-width: 439px) {
     #container-como-funciona>.cards-como-funciona:nth-child(2) {
-        padding-top: 100px;
+        padding-top: 30px;
+        height: 400px;
+    }
+    #container-como-funciona>.cards-como-funciona:nth-child(3) {
+        padding-top: 30px;
+        height: 400px;
     }
 
     .cards-como-funciona:last-child {
         padding-top: 0px !important;
+        height: 400px;
     }
 
     .cards-como-funciona,

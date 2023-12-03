@@ -82,13 +82,12 @@ a {
     padding: 10px;
     border: none;
     border-radius: 8px;
-    background-color: #ffffff;
-    color: white;
+    background-color: #2d2885;
     cursor: pointer;
 }
 
 #link-botao {
-    color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.891);
     text-decoration: none;
     font-size: 16px;
 }
@@ -162,7 +161,7 @@ a {
 
 #botao-whatsap {
     border: none;
-    background-color: rgb(3, 180, 3);
+    background-color: #2d2885;
     padding: 10px;
     border-radius: 8px;
     font-size: 15px;
@@ -253,7 +252,7 @@ p {
 
 /* Container com videos */
 #container-frase-videos {
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     padding-bottom: 30px;
 }
 
@@ -336,7 +335,7 @@ p {
 }
 
 #container-dentro-aplicativo {
-    background-color: white;
+    background-color: rgb(216, 216, 216);
 }
 
 #container-dentro-aplicativo h1,

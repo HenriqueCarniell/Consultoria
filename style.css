@@ -118,6 +118,7 @@ a {
     width: 22rem;
     /* quando a foto está muito grande dos lados da tela fica um espaço em branco diminuir a foto comforme os pixels diminumem */
     border-radius: 180px;
+    margin-right: 50px;
 }
 
 #div-texto-sobre-mim {
@@ -128,7 +129,7 @@ a {
     padding: 50px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
-    background-color: #000000da;
+    background-color: #131323;
     color: rgba(255, 255, 255, 0.685);
 }
 
@@ -396,6 +397,7 @@ footer {
         display: flex;
         height: 20rem;
         width: 20rem;
+        margin-right: 0;
     }
 
     #div-foto {

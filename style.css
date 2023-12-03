@@ -19,7 +19,7 @@ a {
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: top;
 }
 
 #Menu {
@@ -97,10 +97,11 @@ a {
 }
 
 #foto-profissional {
-    margin-right: 50px;
-    height: 25rem;
+    margin-right: 0px;
+    height: 22rem;
+    width: 22rem;
     /* quando a foto está muito grande dos lados da tela fica um espaço em branco diminuir a foto comforme os pixels diminumem */
-    border-radius: 1000px;
+    border-radius: 180px;
 }
 
 #div-texto-sobre-mim {
@@ -252,13 +253,12 @@ p {
     justify-content: space-around;
 }
 
-#cards-como-funciona {
+.cards-como-funciona {
     width: 200px;
-    /* Ou outra largura desejada */
     margin: 10px;
 }
 
-#cards-como-funciona span {
+.cards-como-funciona span {
     font-size: 20px;
 }
 
@@ -275,7 +275,6 @@ p {
 }
 
 .div-texto-como-funciona {
-    height: 230px;
     padding-bottom: 60px;
 }
 
@@ -376,10 +375,11 @@ footer {
 }
 
 /* Estilos para tablets */
-@media screen and (min-width: 415px) and (max-width: 1280px) {
+@media screen and (min-width: 300px) and (max-width: 1280px) {
     #foto-profissional {
         display: flex;
         height: 20rem;
+        width: 20rem;
     }
 
     #div-foto {
@@ -408,6 +408,16 @@ footer {
 
 /* Estilos para celulares */
 @media screen and (max-width: 585px) {
+    #div-foto-texto {
+        display: grid;
+    }
+    #foto-profissional {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+
+    }
+
     #footer {
         display: grid;
     }
@@ -451,31 +461,31 @@ footer {
 }
 
 @media screen and (max-width: 439px) {
-    #container-como-funciona>#cards-como-funciona:nth-child(2) {
+    #container-como-funciona>.cards-como-funciona:nth-child(2) {
         padding-top: 100px;
     }
 
-    #cards-como-funciona:last-child {
+    .cards-como-funciona:last-child {
         padding-top: 0px !important;
     }
 
-    #cards-como-funciona,
+    .cards-como-funciona,
     .icone {
         margin-bottom: 20px;
     }
 
-    #container-como-funciona>#cards-como-funciona:nth-child(3) {
+    #container-como-funciona>.cards-como-funciona:nth-child(3) {
         padding-bottom: 0px;
         margin-bottom: 0;
     }
 }
 
 @media screen and (max-width: 659px) {
-    #cards-como-funciona:last-of-type {
+    .cards-como-funciona:last-of-type {
         padding-bottom: 100px;
     }
 
-    #cards-como-funciona:last-child {
+    .cards-como-funciona:last-child {
         padding-top: 90px;
     }
 }

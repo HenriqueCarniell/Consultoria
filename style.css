@@ -39,7 +39,6 @@ a {
     cursor: pointer;
     margin-left: 3rem;
 }
-
 #div-logo img {
     height: 100px;
     width: 100px;
@@ -74,7 +73,6 @@ a {
     display: grid;
     margin-top: 30vh;
     width: 80%;
-    padding-left: 50px;
 }
 
 #botao-compra {
@@ -423,6 +421,13 @@ footer {
 
 /* Estilos para tablets */
 @media screen and (min-width: 300px) and (max-width: 1280px) {
+    #resultados {
+        font-size: 28px;
+    }
+    #conheca-frase {
+        font-size: 14px;
+    }
+
     .fotos:hover {
         transform: none;
     }
@@ -468,6 +473,7 @@ footer {
 
 /* Estilos para celulares */
 @media screen and (max-width: 585px) {
+
     #redes-sociais i {
         margin-left: 1.5rem;
     }
@@ -557,6 +563,9 @@ footer {
 }
 
 @media screen and (max-width: 659px) {
+    #right-frase {
+        margin-right: 1.5rem;
+    }
     .cards-como-funciona:last-of-type {
         padding-bottom: 100px;
     }
@@ -567,6 +576,12 @@ footer {
 }
 
 @media screen and (max-width: 845px) {
+    #resultados {
+        font-size: 23px;
+    }
+    #conheca-frase {
+        font-size: 10px;
+    }
     #footer {
         display: grid;
     }
@@ -589,6 +604,12 @@ footer {
 }
 
 @media screen and (max-width: 365px) {
+    #resultados {
+        font-size: 20px !important;
+    }
+    #conheca-frase {
+        font-size: 15px !important;
+    }
     #div-videos video {
         width: 80%;
     }

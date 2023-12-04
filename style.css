@@ -422,10 +422,10 @@ footer {
 /* Estilos para tablets */
 @media screen and (min-width: 300px) and (max-width: 1280px) {
     #resultados {
-        font-size: 28px;
+        font-size: 31px;
     }
     #conheca-frase {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .fotos:hover {
@@ -577,10 +577,10 @@ footer {
 
 @media screen and (max-width: 845px) {
     #resultados {
-        font-size: 23px;
+        font-size: 26px;
     }
     #conheca-frase {
-        font-size: 10px;
+        font-size: 13px;
     }
     #footer {
         display: grid;

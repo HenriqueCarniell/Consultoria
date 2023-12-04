@@ -187,6 +187,8 @@ a {
 
 .fotos {
     height: 300px;
+    width: 300px;
+    transition: transform 0.3s;
 }
 
 #container {
@@ -232,11 +234,6 @@ p {
     justify-content: center;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-}
-
-.fotos {
-    transition: transform 0.3s;
-    /* Adiciona uma transição suave ao alterar o tamanho da imagem */
 }
 
 .fotos:hover {
@@ -473,7 +470,6 @@ footer {
 
 /* Estilos para celulares */
 @media screen and (max-width: 585px) {
-
     #redes-sociais i {
         margin-left: 1.5rem;
     }

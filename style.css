@@ -26,7 +26,9 @@ a {
     background-size: cover;
     background-position: top;
 }
-
+#lin-botao {
+    font-size: 18px;
+}
 #redes-sociais {
     width: 50%;
     display: flex;
@@ -104,15 +106,11 @@ a {
 }
 
 /* CSS das frases falando que essa onsultoia é destinada a x pessoas */
-
-#container-frase-pessoa {
-    background-color: rgb(216, 216, 216);
-}
 #container-para-pessoas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+    padding: 5px;
+}
+#container-frase-pessoa {
+    background-color: black
 }
 #frase-protocolo {
     display: flex;
@@ -120,12 +118,14 @@ a {
     margin-bottom: 3rem;
     padding-top: 1rem;
 }
+#frase-protocolo h1 {
+    color: white;
+}
 .para-frase {
-    flex-basis: 30%; /* Isso fará com que três divs caibam em uma linha */
-    height: 100px; /* Espaço entre as linhas */
+    height: 60px;
 }
 .para-frase p{
-    color:black;
+    color:white;
 }
 
 /* CSS sobre mim, vai ter a foto e um texto falando sobre ele */
@@ -604,9 +604,6 @@ footer {
     #frase-protocolo h1{
         font-size: 20px;
     }
-    .para-frase {
-        height: 190px;
-    }
     #resultados {
         font-size: 26px;
     }
@@ -637,9 +634,6 @@ footer {
 @media screen and (max-width: 365px) {
     #container-para-pessoas {
         display: grid ;
-    }
-    .para-frase {
-        height: 80px;
     }
     #frase-protocolo {
         margin-bottom: 2rem;

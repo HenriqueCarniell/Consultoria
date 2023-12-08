@@ -123,6 +123,7 @@ a {
 }
 .para-frase {
     height: 60px;
+    margin-bottom: 10x;
 }
 .para-frase p{
     color:white;

@@ -558,6 +558,9 @@ footer {
 }
 
 @media screen and (max-width: 439px) {
+    #div-quem-sou-eu {
+        font-size: 14px;
+    }
     #frase-protocolo h1{
         font-size: 20px !important;
     }

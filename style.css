@@ -417,6 +417,8 @@ footer {
 
 #a-footer-email {
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Responsividade */

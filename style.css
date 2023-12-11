@@ -29,6 +29,27 @@ a {
 #lin-botao {
     font-size: 18px;
 }
+#div-h1 {
+    
+}
+#resultados {
+    text-transform: uppercase;
+    background:linear-gradient(45deg,#ffffff,#888888,#4d4d4d, #d6d6d6);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes degrade {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 400%;
+    }
+}
 #redes-sociais {
     width: 50%;
     display: flex;
@@ -98,10 +119,6 @@ a {
 }
 
 #conheca-frase {
-    color: white;
-}
-
-#resultados {
     color: white;
 }
 
@@ -620,10 +637,6 @@ footer {
     }
     #footer {
         display: grid;
-    }
-
-    #socias {
-        padding-bottom: 40px;
     }
 
     #div-footer-email {

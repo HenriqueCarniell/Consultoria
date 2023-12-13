@@ -34,7 +34,7 @@ a {
 }
 #resultados {
     text-transform: uppercase;
-    background:linear-gradient(45deg,#ffffff,#888888,#4d4d4d, #d6d6d6);
+    background:linear-gradient(45deg,#F50014,#F55000,#F52500, #F50014);
     background-size: 400% 100%;
     animation: degrade 10s linear infinite alternate;
 
@@ -143,6 +143,14 @@ a {
 }
 .para-frase p{
     color:white;
+}
+.animation {
+    background:linear-gradient(45deg,#F50014,#F55000,#F52500, #F50014);
+    background-size: 400% 100%;
+    animation: degrade 10s linear infinite alternate;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* CSS sobre mim, vai ter a foto e um texto falando sobre ele */
@@ -424,10 +432,6 @@ footer {
     margin-top: 20px;
 }
 
-#div-sobre-mim-footer {
-    padding-bottom: 15px;
-}
-
 #div-footer-email {
     margin-top: 1.5rem;
 }
@@ -437,7 +441,14 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
+#div-serviços {
+    width: 50%;
+}
+#div-socias-texto {
+    width: 50%;
+    display: grid;
+    justify-content: end;
+}
 /* Responsividade */
 
 /* Estilos para Notebooks e desktops */
@@ -567,10 +578,6 @@ footer {
         font-size: 1.05rem;
     }
 
-    #div-footer-texto-sobre-mim {
-        font-size: 16px;
-    }
-
     #botao-compra {
         width: 8rem;
     }
@@ -639,16 +646,18 @@ footer {
         display: grid;
     }
 
-    #div-footer-email {
-        margin-top: 1.5rem;
-    }
-
     #div-footer-servicos {
         margin-top: 1rem;
     }
 
     #div-socias-texto {
         margin-top: 1.5rem;
+        width: 100%;
+        display: grid;
+        justify-content: start;
+    }
+    #div-serviços {
+        width: 100%;
     }
 }
 
